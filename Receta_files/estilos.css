@@ -1,0 +1,150 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFEFCC;
+}
+h1 {
+  color: #ECECEC;
+  font-size: 70PX;
+  font-weight: bold;
+  font-family: "Helvetica";
+  background-color: #A68E75;
+  text-align: center;
+}
+header {
+  background-color: #A68E75;
+  color: white;
+  padding: 10px 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 60%;
+  padding-right: 0%;
+  font-weight: bold;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0px 30px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{color:green;}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+section {
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #A68E75;
+}
+#Video{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+h3 {
+  color: #A68E75;
+  font-size: 30PX;
+  font-weight: bold;
+  font-family: "Helvetica";
+  text-align: center;
+}
+#Mapa{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+form {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  background-color: E09132;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #A68E75;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #424531;
+}
+#Resetas{
+    width: 100%;
+    height: 1500px;
+}
+
+footer{
+  height: auto;
+  width: 100vw;
+  font-family: "Verdana";
+  padding-top: 300px;
+  color: #FFEFCC, ;
+  background-color: #424531;
+  padding: 10px 0;
+  text-align: center;
+
+}
